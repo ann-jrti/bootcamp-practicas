@@ -1,0 +1,45 @@
+*{font-family: 'Oswald', sans-serif;
+}
+
+.headerclass{
+    background-color: #ffffff ;
+    color: #1b1c20;
+ }
+
+ .bodyclass{
+     background-image: url(https://images.unsplash.com/photo-1484807352052-23338990c6c6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80);
+    background-size: cover ;
+    background:linear-gradient(to right, rgba(), rgba());
+    
+    
+   
+}
+
+.divtitulo{
+    color: black;
+    text-align: center;
+    background:linear-gradient(to right, rgba(), rgba());
+    
+}
+
+.combo{display: block;
+
+    width: 350px;
+  margin-left: 430px;
+   
+
+}
+
+.comboradio{display: inline-flexbox;
+  
+}
+
+.formulario{text-align: center;
+
+}
+
+.combobox{display:block;
+    margin-left: 550px;
+    text-align: center;
+
+}
