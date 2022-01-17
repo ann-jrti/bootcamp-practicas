@@ -8,38 +8,50 @@
 
  .bodyclass{
      background-image: url(https://images.unsplash.com/photo-1484807352052-23338990c6c6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80);
-    background-size: cover ;
-    background:linear-gradient(to right, rgba(), rgba());
+    background-repeat: repeat-y;
+    background-size:cover;
+    display:flexbox;
+    }
+
     
     
    
-}
+
 
 .divtitulo{
-    color: black;
+    color: white;
     text-align: center;
-    background:linear-gradient(to right, rgba(), rgba());
+   
     
 }
+.etiqueta{color: white;
 
+}
 .combo{display: block;
 
     width: 350px;
-  margin-left: 430px;
+
    
 
 }
 
 .comboradio{display: inline-flexbox;
+    color:white
   
 }
 
 .formulario{text-align: center;
+    color: white;
+   
 
 }
 
 .combobox{display:block;
-    margin-left: 550px;
+
     text-align: center;
 
+}
+
+.mainclass{
+    background:transparent;
 }
