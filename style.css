@@ -1,0 +1,37 @@
+.nav-bran {width: 150px;}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;}
+
+.fa-twitter {
+        background: #55ACEE;
+        color: white;}
+
+.fa-youtube {
+            background: #bb0000;
+            color: white;}
+
+.fa-instagram {
+ background: #125688;
+color: white;}
+
+.nav-main {display: flex; justify-content: space-between;}
+
+ul {list-style: none;}
+
+.nav-main ul {display:flex}
+
+.nav-main li {padding: 20px;}
+
+.nav-main ul li a:hover{background-color: yellow;padding: 20px;}
+
