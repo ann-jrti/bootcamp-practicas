@@ -1,0 +1,62 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    margin: 50px;
+    display: block;
+}
+
+.chessboard {
+    transition-duration: 1000ms;
+    width: 560px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+input {
+    margin-left: 5px;
+}
+
+#board {
+    width: 480px;
+    height: 480px;
+    border: 40px solid rgb(58, 58, 58);
+    transition-timing-function: ease-out;
+}
+
+#board-squares {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+}
+
+#board-squares div {
+   width: 60px;
+   height: 60px;
+   font-size: 55px;
+   text-align: center;
+   transition: 1000ms;
+   transition-timing-function: ease-out;
+}
+
+.piece {
+    transition-duration: 1000ms;
+    transition-timing-function: ease-out;
+}
+
+.light-square {
+    background-color: rgb(255, 255, 255);
+}
+
+.dark-square {
+    background-color: rgb(160, 160, 160);
+}
+
+input[type=checkbox]:checked + .chessboard {
+    transform: rotate(180deg);
+}
+
+input[type=checkbox]:checked + .chessboard > * .piece {
+    transform: rotate(-180deg);
+} 
