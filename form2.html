@@ -78,13 +78,15 @@
  
         <form class="formulario4">
 
-        <label class="etiqueta" for="fecha" >¿Cuando preferirias que te contactásemos?:</label>
-        <input class="combo" type="date" id="fecha" min="01/01/2022" required >
+        <label class="etiqueta" for="fecha" >¿Cuando preferirias que te contactásemos?:
+            <span class="validity"></span>
+        </label>
+        <input class="combo" type="date" id="fecha" min="2022-01-01" required >
         <p>¿Otros comentarios o sugerencias?:</p>
         <textarea class="comentarios" name="comentarios" placeholder="Introduzca sus comentarios..." 
         ></textarea>
 
-        <form class="formulario-boton" method="get" action="www.google.com">
+        <form class="formulario-boton" method="get" action="https://www.google.com/" target="_blank">
 
         <input class="boton" type="submit" value="Enviar"> </input>
         </form>

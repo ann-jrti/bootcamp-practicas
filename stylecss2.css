@@ -74,12 +74,10 @@
     text-align: center;
     align-items: center;
     padding: 10px;
+    gap:0,5 rem;
 }
 select option {
-    margin: 40px;
-    background: rgba(0, 0, 0, 0.3);
-    color: #fff;
-    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+    font-weight: bold;
 }
 
 .formulario2{
@@ -88,13 +86,17 @@ select option {
     justify-content: center;
     padding: 10px;
     color: white;
+    gap:0,5 rem;
     
-}.formulario3{
+}
+
+.formulario3{
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 10px;
     color: white;
+    gap:0,5 rem;
     
 
 }
@@ -138,12 +140,14 @@ select option {
     text-align: center;
     padding: 10px;
     color: white;
+    gap:0,5 rem;
    
 
 
 }
 .radio{
     display:inline-table;
+    
 
 }
 
@@ -156,6 +160,7 @@ select option {
     width:30%;
     color: white;
     margin:5px;
+    gap:0,5 rem;
 
     
 
@@ -167,8 +172,20 @@ select option {
     border-radius: 4px;
     padding: 10px;
     margin:5px;
+    gap:0,5 rem;
 
 
 
 }
 
+span::after {
+    padding-left: 5px;
+  }
+  
+  input:invalid + span::after {
+    content: '✖';
+  }
+  
+  input:valid+span::after {
+    content: '✓';
+  }
