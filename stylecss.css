@@ -7,16 +7,24 @@
  }
 
  .bodyclass{
-     background-image: url(https://images.unsplash.com/photo-1484807352052-23338990c6c6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80);
+    background-image: url(https://images.unsplash.com/photo-1484807352052-23338990c6c6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80);
     background-repeat: repeat-y;
-    background-size:cover;
-    display:flexbox;
+    background-size: cover;
+    background-attachment: fixed;
+    display:flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    min-width: 100%;
+   
     }
 
+ .mainclass{
+        background:transparent;
+        align-content: center;
+        min-width: 100%;
+        
+    }
     
-    
-   
-
 
 .divtitulo{
     color: white;
@@ -27,31 +35,29 @@
 .etiqueta{color: white;
 
 }
-.combo{display: block;
+.combo{
 
-    width: 350px;
-
-   
+    min-width: 350px;
+  
 
 }
+
+#edad:out-of-range{border-color: red;}
 
 .comboradio{display: inline-flexbox;
     color:white
   
 }
 
-.formulario{text-align: center;
+.formulario{
     color: white;
+    display:inline-flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
    
 
 }
 
-.combobox{display:block;
 
-    text-align: center;
-
-}
-
-.mainclass{
-    background:transparent;
-}
