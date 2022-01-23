@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Oswald';
+    src: url('Oswald-Bold.ttf') format('ttf');
+    src: url('Oswald-Extra-light.ttf') format('ttf');
+    src: url('Oswald-Light.ttf') format('ttf');
+    src: url('Oswald-Medium.ttf') format('ttf');
+    src: url('Oswald-Regular.ttf') format('ttf');
+    src: url('Oswald-SemiBold.ttf') format('ttf');
+}
