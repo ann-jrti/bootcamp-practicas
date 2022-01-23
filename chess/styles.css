@@ -1,6 +1,7 @@
 * {
     padding: 0;
     margin: 0;
+    font-family: Oswald;
 }
 
 body {
@@ -34,7 +35,7 @@ input {
 #board-squares div {
    width: 60px;
    height: 60px;
-   font-size: 55px;
+   font-size: 45px;
    text-align: center;
    transition: 1000ms;
    transition-timing-function: ease-out;
@@ -60,3 +61,4 @@ input[type=checkbox]:checked + .chessboard {
 input[type=checkbox]:checked + .chessboard > * .piece {
     transform: rotate(-180deg);
 } 
+
