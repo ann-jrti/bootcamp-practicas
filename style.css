@@ -46,11 +46,18 @@ video {height:500px;width: 100%;}
 
 .textoV {position: absolute;
   display: flex;
-  justify-content: center;
   color: white;
   right: 30px;
   left: 50px;
-  padding: 200px;}
+  padding: 138px;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: center;
+ 
+  font-family: 'Dongle', sans-serif;
+  font-family: 'Neonderthaw', cursive;
+  font-family: 'Oswald', sans-serif;}
 
 .header-video {
   
@@ -132,15 +139,17 @@ video {height:500px;width: 100%;}
   margin: 100px;
   padding: 20px;
   padding-top: 20px;
-  border: solid;
-  width: 350px;
-  height: 700px;background-color: rgb(235, 236, 240);text-align: center;font-size: 15px;font-family: 'Neonderthaw', cursive;
+  width: 400px;
+  
+  height: 800px;background-color: rgb(235, 236, 240);text-align: center;font-size: 15px;font-family: 'Neonderthaw', cursive;
   font-family: 'Oswald', sans-serif;font-size:15PX;font-weight: lighter;}
+ .card ul {list-style:circle;list-style-position: inside;list-style-image:url(./img/icons4.png); }
 
 
+.boton {color: white; background-color: #4CAF50;border-radius: 15px;padding: 10px;box-shadow:0px  3px #235f25;}
 
-
-
+li {padding: 2px;font-family: 'Neonderthaw', cursive;
+  font-family: 'Oswald', sans-serif;font-size:15PX;color: rgb(197, 194, 194);}
 
 /*MEDIA-MOVIL*/
 
@@ -148,6 +157,7 @@ video {height:500px;width: 100%;}
   
   
   .menu { display: none ;}} .social{display: none;}
+  
 
 @media  (min-width:480px) {
     
