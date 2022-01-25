@@ -16,13 +16,13 @@
 <body class="bodyclass">
 <header class="headerclass"> </header>
 
-<main class="mainclass">
+<form class="mainclass" method="GET" action="https://www.google.com/" target="_blank">
     <div class="divtitulo">
         <h1>Formulario de contacto </h1>
         <h5><i>Gracias por contactar con nosotros y ayudarnos a mejorar</i></h5>
     </div>
 
-    <form class="formulario">
+    <div class="formulario">
         <label class="etiqueta" for="name">Nombre:</label>
         <input class="combo" type="text" id="name" placeholder="Introduce tu Nombre" required >
 
@@ -42,24 +42,24 @@
              </select>
 
 
-     </form>
+     </div>
 
-     <form class="formulario2">
+     <div class="formulario2">
                <p> <label class="etiqueta"for="recomendar" >¿Recomendarias esta página un conocido?:</label></p>
-            </form>
-                    <p> <form class="formularioCombo">
+     </div>
+                    <p> <div class="formularioCombo">
                         <input class="comboradio"type="radio" id="recomendar1"name="radio" value="Definitiva"> Definitivamente si
                         <input class="comboradio"type="radio" id="recomendar2"name="radio" value="quizas" > Quizás
                         <input class="comboradio"type="radio" id="recomendar3"name="radio" value="noseguro" > No estoy seguro
                     </p>
     
-            </form>       
+                </div>       
 
                 
-    <form class="formulario3">
+    <div class="formulario3">
       
         <label class="etiqueta"for="check" >¿Qué recomendaciones te gustaría recibir?(Marca todas las que apliquen):</label>
-    </form>
+    </div>
         <div class="checkbox">
             <ul class="listCheck">
        
@@ -78,26 +78,23 @@
     </div>
 
  
-        <form class="formulario4">
+        <div class="formulario4">
 
         <label class="etiqueta" for="fecha" >¿Cuando preferirias que te contactásemos?:
-            <span class="validity"></span>
+            
         </label>
         <input class="combo" type="date" id="fecha" min="2022-01-01" required >
         <p>¿Otros comentarios o sugerencias?:</p>
         <textarea class="comentarios" name="comentarios" placeholder="Introduzca sus comentarios..." 
         ></textarea>
-
-        <form class="formulario-boton" method="get" action="https://www.google.com/" target="_blank">
-
         <input class="boton" type="submit" value="Enviar"> </input>
-        </form>
+       
 
 
 
-    </form>
+        </div>
     
-</main>
+</form>
 
 
 

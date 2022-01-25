@@ -42,6 +42,7 @@ nav {border-bottom: solid 1px black;}
 
 
 /*video*/
+
 video {height:500px;width: 100%;}
 
 .textoV {position: absolute;
@@ -59,6 +60,7 @@ video {height:500px;width: 100%;}
   font-family: 'Neonderthaw', cursive;
   font-family: 'Oswald', sans-serif;}
 
+
 .header-video {
   
   height: 0px;
@@ -66,6 +68,7 @@ video {height:500px;width: 100%;}
   padding-bottom: 40%;
   overflow: hidden;
   position: relative;;
+
 }
 
 
@@ -139,6 +142,7 @@ video {height:500px;width: 100%;}
   margin: 100px;
   padding: 20px;
   padding-top: 20px;
+
   width: 400px;
   
   height: 800px;background-color: rgb(235, 236, 240);text-align: center;font-size: 15px;font-family: 'Neonderthaw', cursive;
@@ -151,13 +155,16 @@ video {height:500px;width: 100%;}
 li {padding: 2px;font-family: 'Neonderthaw', cursive;
   font-family: 'Oswald', sans-serif;font-size:15PX;color: rgb(197, 194, 194);}
 
+
 /*MEDIA-MOVIL*/
 
 @media (max-width:480px) {
   
   
   .menu { display: none ;}} .social{display: none;}
+
   
+
 
 @media  (min-width:480px) {
     
