@@ -1,51 +1,97 @@
-* {padding: 0px; margin: 0px; box-sizing: border-box;}
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: Oswald;
+}
+body {
+  position: relative;
+}
+.nav-bran {
+  width: 150px;
+}
 
-.nav-bran {width: 150px;}
 
-.fa {
-  padding: 20px;
-  font-size: 20px;
-  width: 20px;
-  text-align: center;
-  text-decoration: none;
-  border-radius: 50%;
-  }
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
 
 .fa-facebook {
-    background: #3B5998;
-    color: white;}
+  background: #3b5998;
+  color: white;
+}
 
 .fa-twitter {
-        background: #55ACEE;
-        color: white;}
+  background: #55ACEE;
+  color: white;
+}
+
 
 .fa-youtube {
-            background: #bb0000;
-            color: white;}
+  background: #bb0000;
+  color: white;
+}
 
 .fa-instagram {
- background: #125688;
-color: white;}
+  background: #125688;
+  color: white;
+}
 
 /*menu*/
 
-.nav-main {display: flex; justify-content: space-between;}
+.nav-main {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
 
-.menu {display:flex}
+a:active {
+  color: #1b1c20;
+}
 
-.menu li { padding: 50px; list-style-type: none;font-style: none; top:20px ;font-family: 'Neonderthaw', cursive;
-  font-family: 'Oswald', sans-serif;font-size:20PX;font-weight: lighter;} 
+a:visited {
+  color: #1b1c20;
+}
 
-.menu li a:hover{font-style: none ;text-decoration: none; background-color:  black;padding: 15px;}
+.menu {
+  display: flex;
+  top: 20px;
+}
 
-nav {border-bottom: solid 1px black;}
+.menu a,
+li {
+  padding: 25px 15px;
+  font-style: none;
+  font-family: 'Oswald', sans-serif;
+  font-size: 18px;
+  font-weight: lighter;
+  list-style-type: none;
+}
 
+.menu a:hover {
+  font-style: none;
+  text-decoration: none;
+  background-color: black;
+  color: white;
+}
+
+nav {
+  border-bottom: solid 1px black;
+}
 
 /*video*/
 
-video {height:500px;width: 100%;}
+video {
+  width: 100%;
+}
 
-.textoV {position: absolute;
+.textoV {
+  position: absolute;
   display: flex;
   color: white;
   right: 30px;
@@ -55,131 +101,237 @@ video {height:500px;width: 100%;}
   flex-wrap: wrap;
   align-content: center;
   align-items: center;
- 
-  font-family: 'Dongle', sans-serif;
-  font-family: 'Neonderthaw', cursive;
-  font-family: 'Oswald', sans-serif;}
-
-
-.header-video {
-  
-  height: 0px;
-  width: 100%;   
-  padding-bottom: 40%;
-  overflow: hidden;
-  position: relative;;
-
+  font-family: 'Oswald', sans-serif;
 }
 
-
+.header-video {
+  height: 0px;
+  width: 100%;
+  padding-bottom: 40%;
+  overflow: hidden;
+  position: relative;
+}
 
 /*Card****************************************************************************/
 
-.cartas {display: flex; justify-content: space-around;}
+.cartas {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 200px;
+  margin-bottom: 200px;
+}
 
 .flip-card {
   background-color: transparent;
   width: 500px;
   height: 300px;
-  perspective: 1000px;}
+  perspective: 1000px;
+}
 
 .flip-card-inner {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    transition: transform 0.6s;
-    transform-style: preserve-3d;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);border-radius: 20px;
-  
-  }
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+}
 
 .flip-card:hover .flip-card-inner {
-      transform: rotateY(180deg);}
+  transform: rotateY(180deg);
+}
 
-.flip-card-front, .flip-card-back {
-      position: absolute;
-      width: 100%;
-      height: 100%;
-      -webkit-backface-visibility: hidden;
-      backface-visibility: hidden;border-radius: 20px;}
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  border-radius: 20px;
+}
 
-.flip-card-front {display: flex;
+.flip-card-front {
+  display: flex;
   justify-content: center;
-        background-color:white;
-        color: black;}
+  background-color: white;
+  color: black;
+}
 
-.flip-card-front h2 {margin-top: 50px; position: absolute; color: white; text-shadow: 23px 19px 4px rgba(59, 58, 58, 0.91);font-family: 'Neonderthaw', cursive;
-  font-family: 'Oswald', sans-serif;font-size:50PX;font-weight: lighter;}
+.flip-card-front h2 {
+  margin-top: 50px;
+  position: absolute;
+  color: white;
+  text-shadow: 23px 19px 4px rgba(59, 58, 58, 0.91);
+  font-family: 'Neonderthaw', cursive;
+  font-family: 'Oswald', sans-serif;
+  font-size: 50px;
+  font-weight: lighter;
+}
 
-  .flip-card-back {
-          background-color: #2e3438;
-          color: white;
-          transform: rotateY(180deg);}
+.flip-card-back {
+  background-color: #2e3438;
+  color: white;
+  transform: rotateY(180deg);
+}
 
-          .texto-encima{
-            position: absolute;
-            top: 10px;
-            left: 10px;
-        }
-        .centrado{
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-        }
-          /*CARD2*/
-
-
+.texto-encima {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+.centrado {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/*CARD2*/
 
 /*Precios-tarifas*****************************************************************************/
 
+.main {
+  display: flex;
+  justify-content: center;
+}
 
-.main {display: flex;justify-content: center;}
-
-
-.card {display: flex; justify-content: space-between;flex-direction: column;
-  margin: 100px;
-  padding: 20px;
+.card {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 80px;
   padding-top: 20px;
+  width: 100%;
+  background-color: rgb(235, 236, 240);
+  text-align: center;
+  font-size: 15px;
+  font-family: 'Neonderthaw', cursive;
+  font-family: 'Oswald', sans-serif;
+  font-size: 15px;
+  font-weight: lighter;
+}
 
-  width: 400px;
-  
-  height: 800px;background-color: rgb(235, 236, 240);text-align: center;font-size: 15px;font-family: 'Neonderthaw', cursive;
-  font-family: 'Oswald', sans-serif;font-size:15PX;font-weight: lighter;}
- .card ul {list-style:circle;list-style-position: inside;list-style-image:url(./img/icons4.png); }
+.packages {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
 
+.package {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 15px;
+  height: 300px;
+  width: 200px;
+  background-color: white;
+  border-radius: 2%;
+  align-items: center;
+}
 
-.boton {color: white; background-color: #4CAF50;border-radius: 15px;padding: 10px;box-shadow:0px  3px #235f25;}
+.badge-container {
+  display: flex;
+  justify-content: flex-end;
+}
 
-li {padding: 2px;font-family: 'Neonderthaw', cursive;
-  font-family: 'Oswald', sans-serif;font-size:15PX;color: rgb(197, 194, 194);}
+.price {
+  justify-content: center;
+  align-items: center;
+}
 
+.popular-price {
+  width: 50px;
+  height: 50px;
+  background-color: #3bbdee;
+  color: #ffff;
+  border-radius: 50%;
+}
+
+.card ul {
+  list-style: circle;
+  list-style-position: inside;
+  list-style-image: url(./img/icons4.png);
+}
+
+.boton {
+  width: 100px;
+  height: 40px;
+  color: white;
+  border: none;
+  background-color: #71ce73;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 0px 3px 0px #66ac64;
+}
+
+li {
+  padding: 2px;
+  font-family: 'Neonderthaw', cursive;
+  font-family: 'Oswald', sans-serif;
+  font-size: 15px;
+  color: rgb(197, 194, 194);
+}
 
 /*MEDIA-MOVIL*/
 
-@media (max-width:480px) {
-  
-  
-  .menu { display: none ;}} .social{display: none;}
-
-  
-
-
-@media  (min-width:480px) {
+@media (max-width: 480px) {
+  .menu {
+    display: none;}
     
+    .cartas {display: flex; flex-wrap: wrap;justify-content:space-around;}
+
+    .packages{display: flex; flex-direction: column;}
+
+    .rrss{display: none;}
+
+    .img {display: none;}
+
+    .menubtn {
+      display:flex; justify-content:start ;
+    }
+      .nav-main {
+        display: flex;
+        justify-content: flex-start;
+        }
+    }
+
+
   
-.menubtn {display: none; }}
+ 
 
+.social {
+  display: none;
+}
 
+@media (min-width: 480px) {
+  .menubtn {
+    display: none;
+  }
+}
 
-  
+footer {
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  background-color: #1b1c20;
+  width: 100%;
+  height: 60px;
+  font-size: 12px;
+  color: #ffff;
+  justify-content: center;
+  align-items: center;
+  font-family: Oswald Light;
+}
 
-
-
-  
-
-  
+li div {
+  color: white;
+  width: 20px;
+  height: 20px;
+  background-color: green;
+  border-radius: 50%;
+}
 
 
 
