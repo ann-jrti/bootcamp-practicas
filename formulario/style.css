@@ -1,0 +1,268 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Oswald', sans-serif;
+}
+
+body {
+  height: 100vh;
+  position: relative;
+}
+
+.headerclass {
+  background-color: #ffffff;
+  color: #1b1c20;
+}
+
+.bodyclass {
+  background-image: linear-gradient(
+      90deg,
+      rgba(8, 8, 8, 0.6232227488151658) 0%,
+      rgba(5, 5, 5, 0.5971563981042654) 100%
+    ),
+    url(https://images.unsplash.com/photo-1484807352052-23338990c6c6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80);
+  background-repeat: repeat-y;
+  background-repeat: round;
+  background-position-x: cover;
+  background-size: 100%;
+}
+
+.mainclass {
+  min-width: 100%;
+}
+
+.divtitulo {
+  color: white;
+  text-align: center;
+  justify-content: center;
+  padding-top: 3vh;
+}
+.etiqueta {
+  color: white;
+  margin: 5px;
+}
+.combo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  min-width: 70%;
+  min-height: 30%;
+  border-radius: 5px;
+  text-align: justify;
+  margin: 5px;
+  padding-left: 10px;
+}
+
+.comboradio {
+  color: white;
+}
+
+.formulario {
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  flex-flow: column;
+  text-align: center;
+  align-items: center;
+}
+select option {
+  font-weight: bold;
+}
+select {
+  border: transparent;
+  border-radius: 5px;
+}
+.formulario2 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  color: white;
+}
+.formularioCombo {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  color: white;
+}
+
+.formulario3 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  color: white;
+  gap: 0.5rem;
+}
+
+.checkbox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.listCheck {
+  display: block;
+  list-style-type: none;
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 10px;
+}
+
+.combobox {
+  padding: 10px;
+  margin: 10px;
+}
+
+.formulario4 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column;
+  text-align: center;
+  padding: 10px;
+  color: white;
+  gap: 0.5rem;
+}
+.radio {
+  display: inline-table;
+}
+
+.comentarios {
+  min-width: 70%;
+  min-height: 10vh;
+  border-radius: 4px;
+  max-width: 100%;
+  height: 100%;
+  width: 30%;
+  color: #1b1c20;
+  margin: 5px;
+  gap: 0.5rem;
+  padding-left: 10px;
+}
+.boton {
+  min-width: 70%;
+  border-radius: 4px;
+  padding: 10px;
+  margin: 5px;
+  gap: 0.5rem;
+}
+
+@media screen and (min-width: 481px) {
+  .divtitulo h1 {
+    font-size: 2.5rem;
+  }
+
+  .divtitulo h5 {
+    font-size: 0.8rem;
+  }
+
+  .formulario {
+    min-width: 50%;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin: 0%;
+  }
+  .formulario2 {
+    min-width: 50%;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin: 0%;
+  }
+
+  .formulario3 {
+    min-width: 50%;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin: 0%;
+  }
+  .formulario4 {
+    min-width: 50%;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin: 0%;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .divtitulo h1 {
+    font-size: 3rem;
+  }
+  .divtitulo h5 {
+    font-size: 1rem;
+  }
+  .formulario {
+    max-width: 90%;
+    padding-left: 20%;
+    padding-right: 10%;
+  }
+  .formulario2 {
+    max-width: 90%;
+    padding-left: 20%;
+    padding-right: 10%;
+  }
+
+  .formulario3 {
+    max-width: 90%;
+    padding-left: 20%;
+    padding-right: 10%;
+  }
+
+  .formulario4 {
+    max-width: 90%;
+    padding-left: 20%;
+    padding-right: 10%;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .divtitulo h1 {
+    font-size: 3.5rem;
+  }
+  .divtitulo h5 {
+    font-size: 1.2rem;
+  }
+
+  .formulario {
+    max-width: 80%;
+    margin-left: 5%;
+  }
+
+  .formulario2 {
+    max-width: 80%;
+    margin-left: 5%;
+  }
+
+  .formulario3 {
+    max-width: 80%;
+    margin-left: 5%;
+  }
+
+  .formulario4 {
+    max-width: 80%;
+    margin-left: 5%;
+  }
+}
+
+footer {
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  background-color: #1b1c20;
+  width: 100%;
+  height: 60px;
+  font-size: 12px;
+  color: #ffff;
+  justify-content: center;
+  align-items: center;
+  font-family: Oswald Light;
+}
