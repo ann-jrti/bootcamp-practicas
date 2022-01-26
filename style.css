@@ -11,14 +11,16 @@ body {
   width: 150px;
 }
 
-.fa {
-  padding: 20px;
-  font-size: 20px;
-  width: 20px;
-  height: 20px;
-  text-align: center;
-  text-decoration: none;
-  border-radius: 50%;
+
+
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+
 }
 
 .fa-facebook {
@@ -27,9 +29,11 @@ body {
 }
 
 .fa-twitter {
-  background: #55acee;
+background: #55ACEE;
   color: white;
 }
+
+
 
 .fa-youtube {
   background: #bb0000;
@@ -116,6 +120,10 @@ video {
 .cartas {
   display: flex;
   justify-content: space-around;
+
+  margin-top: 200px;
+  margin-bottom: 200px;
+
 }
 
 .flip-card {
@@ -210,6 +218,7 @@ video {
   font-weight: lighter;
 }
 
+
 .packages {
   display: flex;
   justify-content: center;
@@ -275,11 +284,69 @@ li {
 
 @media (max-width: 480px) {
   .menu {
+    display: none;}
+    
+    .cartas {display: flex; flex-wrap: wrap;justify-content:space-around;}
+
+    .packages{display: flex; flex-direction: column;}
+
+    .rrss{display: none;}
+
+    .img {display: none;}
+
+    .menubtn {
+      display:flex; justify-content:start ;
+    }
+      .nav-main {
+        display: flex;
+        justify-content: flex-start;
+        }
+    }
+
+
+.popular-price {
+  width: 50px;
+  height: 50px;
+  background-color: #3bbdee;
+  color: #ffff;
+  border-radius: 50%;
+}
+
+
+  
+ 
+
+.social {
+  display: none;
+}
+
+@media (min-width: 480px) {
+  .menubtn {
     display: none;
   }
 }
-.social {
-  display: none;
+
+footer {
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  background-color: #1b1c20;
+  width: 100%;
+  height: 60px;
+  font-size: 12px;
+  color: #ffff;
+  justify-content: center;
+  align-items: center;
+  font-family: Oswald Light;
+}
+
+li div {
+  color: white;
+  width: 20px;
+  height: 20px;
+  background-color: green;
+  border-radius: 50%;
+
 }
 
 @media (min-width: 480px) {
